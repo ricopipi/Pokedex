@@ -1,0 +1,42 @@
+/* configurações das cores, tamanhos, imagems, etc */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.lista-pokemon{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+h3{
+    margin: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+.pokemon{
+    background-color: #78c850;
+    border-radius: 10px;
+    img{
+        width: 80%;
+        display: flex;
+        justify-self: center;
+    }
+
+    p{
+        text-align: center;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}    
+
+.grass{background-color:   #78c850;}
+.water{background-color: rgb(31, 19, 204);}
+.fire{background-color: rgb(230, 125, 40);}
+.normal{background-color: rgb(255, 170, 237);}
+.eletric{background-color: rgb(237, 218, 9);}
