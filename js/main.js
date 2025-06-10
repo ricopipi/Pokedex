@@ -5,7 +5,7 @@ const pokemonList = document.getElementById("lista-pokemon")
 //Função para pegar as informações do pokemon
 function convertPokemonToLi(pokemon){
     return `
-        <li class="pokemon ${pokemon.types[0].type.name}">
+        <li class="pokemon ${pokemon.types[0].type.name}"> 
             <p class="nome">${pokemon.name}</p>
             <img src="${pokemon.sprites.other.dream_world.front_default}" alt="bulbasaur">
         </li>
