@@ -1,5 +1,5 @@
 console.log("Funcionou! ")
- const url = "https://pokeapi.co/api/v2/pokemon?limit=1025&offset=0"  // link do poké API
+ const url = "https://pokeapi.co/api/v2/pokemon?limit=600&offset=0"  // link do poké API
 const pokemonList = document.getElementById("lista-pokemon")
 
 //Função para pegar as informações do pokemon
