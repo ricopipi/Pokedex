@@ -13,7 +13,7 @@ function convertPokemonToLi(pokemon){
     ;
   
 }
-// transformas as informações em json
+// transformar as informações em json
 function getPokemonDetails(pokemon){
     return fetch(pokemon.url)
         .then((response) => response.json())
